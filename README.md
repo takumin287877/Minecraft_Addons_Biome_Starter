@@ -1,3 +1,14 @@
+# Minecraft Addons Biome starter
+
+このプロジェクトは [microsoft/minecraft-scripting-samples](https://github.com/microsoft/minecraft-scripting-samples) の `ts-starter` をベースに、以下の改変を加えたものです：
+
+- パッケージマネージャー: npm → pnpm
+- リンター/フォーマッター: Biome
+
+元のプロジェクトは Microsoft Corporation によって MIT ライセンスで公開されています。
+
+---
+
 変更すべき場所（テンプレートからプロジェクト化する手順）
 
 1) package.json の基本情報
