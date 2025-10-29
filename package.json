@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "productName": "Minecraft TypeScript Starter Project",
     "description": "Minecraft TypeScript Starter Project",
+    "license": "MIT",
     "private": true,
     "packageManager": "pnpm@10.19.0",
     "devDependencies": {
