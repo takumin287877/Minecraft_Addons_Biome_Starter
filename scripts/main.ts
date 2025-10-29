@@ -2,7 +2,7 @@ import { system, world } from "@minecraft/server";
 
 function mainTick() {
     if (system.currentTick % 100 === 0) {
-        world.sendMessage("Hello starter! Tick: " + system.currentTick);
+        world.sendMessage(`Hello starter! Tick: ${system.currentTick}`);
     }
 
     system.run(mainTick);

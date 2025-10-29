@@ -4,6 +4,7 @@
     "productName": "Minecraft TypeScript Starter Project",
     "description": "Minecraft TypeScript Starter Project",
     "private": true,
+    "packageManager": "pnpm@10.19.0",
     "devDependencies": {
         "@biomejs/biome": "2.3.2",
         "@minecraft/core-build-tasks": "5.5.0",
@@ -13,7 +14,7 @@
         "typescript": "5.9.3"
     },
     "scripts": {
-        "lint": "just-scripts lint",
+        "lint": "biome check .",
         "build": "just-scripts build",
         "b": "just-scripts build",
         "build:production": "just-scripts build --production",
@@ -27,9 +28,9 @@
         "enablemcpreviewloopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-424268864-5579737-879501358-346833251-474568803-887069379-4040235476"
     },
     "dependencies": {
-        "@minecraft/math": "^2.2.7",
-        "@minecraft/server": "^2.0.0",
+        "@minecraft/math": "2.2.11",
+        "@minecraft/server": "2.3.0",
         "@minecraft/server-ui": "^2.0.0",
-        "@minecraft/vanilla-data": "^1.21.90"
+        "@minecraft/vanilla-data": "1.21.120"
     }
 }

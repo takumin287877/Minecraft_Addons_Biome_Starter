@@ -26,3 +26,9 @@
 	- エディタで Biome 拡張機能をインストール（例：VS Code の「Biome」）
 	- プロジェクト直下の biome.json に従ってフォーマット/リントが有効になります
 	- 自動整形を使う場合は「保存時にフォーマット」をオンにしてください
+
+5) pnpm の導入（推奨）
+	- Windows PowerShell: `npm i -g pnpm`
+	- 依存関係のインストール: `pnpm install`
+	- スクリプト例: `pnpm build` / `pnpm build:production` / `pnpm local-deploy` / `pnpm mcaddon`
+	- 既存の npm ロックファイルは削除済み（package-lock.json）。pnpm-lock.yaml が生成されます
