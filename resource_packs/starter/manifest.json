@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "My resource pack",
+        "description": "My resource pack description",
+        "uuid": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "description": "My Resource Pack",
+            "type": "resources",
+            "uuid": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+            "version": [1, 0, 0]
+        }
+    ]
+}
