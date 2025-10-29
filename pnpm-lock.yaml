@@ -30,6 +30,9 @@ importers:
       eslint-plugin-minecraft-linting:
         specifier: 2.0.10
         version: 2.0.10
+      just-scripts:
+        specifier: 2.4.2
+        version: 2.4.2(@types/node@24.9.2)
       source-map:
         specifier: 0.7.6
         version: 0.7.6

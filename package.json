@@ -11,6 +11,7 @@
         "@minecraft/core-build-tasks": "5.5.0",
         "eslint-plugin-minecraft-linting": "2.0.10",
         "source-map": "0.7.6",
+        "just-scripts": "2.4.2",
         "ts-node": "10.9.2",
         "typescript": "5.9.3"
     },
